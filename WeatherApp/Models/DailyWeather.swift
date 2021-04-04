@@ -21,7 +21,7 @@ struct DailyWeather: Codable, Identifiable {
   init()  {
     dt = 0
     temp = Temperature(min: 0.0, max: 0.0)
-    weather = [WeatherDetail(main: "", description: "", item: "")]
+    weather = [WeatherDetail(main: "", description: "", icon: "")]
   }
 }
 

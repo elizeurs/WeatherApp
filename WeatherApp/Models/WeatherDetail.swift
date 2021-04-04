@@ -10,5 +10,5 @@ import Foundation
 struct WeatherDetail: Codable {
   var main: String
   var description: String
-  var item: String
+  var icon: String
 }
