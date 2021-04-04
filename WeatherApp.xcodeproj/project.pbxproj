@@ -13,6 +13,7 @@
 		7508B15126191975003BB3B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7508B15026191975003BB3B6 /* Preview Assets.xcassets */; };
 		7508B15F26192B3E003BB3B6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508B15E26192B3E003BB3B6 /* API.swift */; };
 		7508B16326192BBC003BB3B6 /* API+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508B16226192BBC003BB3B6 /* API+Extensions.swift */; };
+		7508B16626193E2B003BB3B6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508B16526193E2B003BB3B6 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7508B15226191975003BB3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7508B15E26192B3E003BB3B6 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		7508B16226192BBC003BB3B6 /* API+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Extensions.swift"; sourceTree = "<group>"; };
+		7508B16526193E2B003BB3B6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				7508B15E26192B3E003BB3B6 /* API.swift */,
 				7508B16226192BBC003BB3B6 /* API+Extensions.swift */,
+				7508B16526193E2B003BB3B6 /* NetworkManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				7508B16326192BBC003BB3B6 /* API+Extensions.swift in Sources */,
 				7508B14C26191974003BB3B6 /* ContentView.swift in Sources */,
+				7508B16626193E2B003BB3B6 /* NetworkManager.swift in Sources */,
 				7508B15F26192B3E003BB3B6 /* API.swift in Sources */,
 				7508B14A26191974003BB3B6 /* WeatherAppApp.swift in Sources */,
 			);
