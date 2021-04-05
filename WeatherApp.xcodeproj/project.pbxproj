@@ -40,6 +40,7 @@
 		7529AF2F261A8F63000119BA /* nightClearSky.json in Resources */ = {isa = PBXBuildFile; fileRef = 7529AF1D261A8F63000119BA /* nightClearSky.json */; };
 		7529AF30261A8F63000119BA /* nightScatteredClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = 7529AF1E261A8F63000119BA /* nightScatteredClouds.json */; };
 		7529AF44261A9346000119BA /* dayShowerRains.json in Resources */ = {isa = PBXBuildFile; fileRef = 7529AF43261A9346000119BA /* dayShowerRains.json */; };
+		753174BB261B680F00CD4BC7 /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753174BA261B680F00CD4BC7 /* MenuHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		7529AF1D261A8F63000119BA /* nightClearSky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightClearSky.json; sourceTree = "<group>"; };
 		7529AF1E261A8F63000119BA /* nightScatteredClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightScatteredClouds.json; sourceTree = "<group>"; };
 		7529AF43261A9346000119BA /* dayShowerRains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayShowerRains.json; sourceTree = "<group>"; };
+		753174BA261B680F00CD4BC7 /* MenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				7529AF0A261A85A1000119BA /* LottieView.swift */,
+				753174BA261B680F00CD4BC7 /* MenuHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				7508B14C26191974003BB3B6 /* ContentView.swift in Sources */,
 				7508B16626193E2B003BB3B6 /* NetworkManager.swift in Sources */,
 				7508B15F26192B3E003BB3B6 /* API.swift in Sources */,
+				753174BB261B680F00CD4BC7 /* MenuHeaderView.swift in Sources */,
 				7508B14A26191974003BB3B6 /* WeatherAppApp.swift in Sources */,
 				7529AEF8261A06D8000119BA /* Weather.swift in Sources */,
 				7529AF01261A070F000119BA /* Temperature.swift in Sources */,
