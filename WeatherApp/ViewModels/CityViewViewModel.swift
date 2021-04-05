@@ -14,7 +14,7 @@ final class CityViewViewModel: ObservableObject {
   
   @Published var city: String = "San Francisco" {
     didSet {
-       getLocation()
+      getLocation()
     }
   }
   
@@ -37,7 +37,7 @@ final class CityViewViewModel: ObservableObject {
   }()
   
   init() {
-      getLocation()
+    getLocation()
   }
   
   var date: String {
@@ -48,7 +48,9 @@ final class CityViewViewModel: ObservableObject {
     if weather.current.weather.count > 0 {
       return weather.current.weather[0].icon
     }
-    return "sun.max.fill"
+    //    return "sun.max.fill"
+    return "dayClearSky"
+    
   }
   
   var temperature: String {
