@@ -1,5 +1,5 @@
 //
-//  DaiyWeatherView.swift
+//  DailyWeatherView.swift
 //  WeatherApp
 //
 //  Created by Elizeu RS on 05/04/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DaiyWeatherView: View {
+struct DailyWeatherView: View {
   
   @ObservedObject var cityVM: CityViewViewModel
   
@@ -44,6 +44,6 @@ struct DaiyWeatherView: View {
 
 struct DaiyWeatherView_Previews: PreviewProvider {
     static var previews: some View {
-      DaiyWeatherView(cityVM: CityViewViewModel())
+      DailyWeatherView(cityVM: CityViewViewModel())
     }
 }
