@@ -16,14 +16,14 @@ struct TodayWeatherView: View {
           .font(.largeTitle)
           .bold()
         
-        HStack ( spacing: 20) {
+        HStack (spacing: 20) {
           LottieView(name: cityVM.getLottieAnimationFor(icon: cityVM.weatherIcon))
             .frame(width: 100, height: 100)
           
           VStack(alignment: .leading) {
             Text("\(cityVM.temperature)℉")
               .font(.system(size: 42))
-                    Text(cityVM.conditions)
+            Text(cityVM.conditions)
           }
         }
         

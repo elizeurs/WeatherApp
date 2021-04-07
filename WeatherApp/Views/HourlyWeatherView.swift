@@ -11,7 +11,7 @@ struct HourlyWeatherView: View {
   @ObservedObject var cityVM: CityViewViewModel
   
     var body: some View {
-      ScrollView(.horizontal,  showsIndicators: false) {
+      ScrollView(.horizontal, showsIndicators: false) {
         HStack(spacing: 20) {
           ForEach(cityVM.weather.hourly) { weather in
             let icon = cityVM.getWeatherIconFor(icon: weather.weather.count > 0 ? weather.weather[0].icon : "sun.max.fill")
@@ -22,6 +22,7 @@ struct HourlyWeatherView: View {
           }
         }
       }
+      .padding(.bottom)
     }
   
   private func getHourlyView(hour: String, image: Image, temp: String) -> some View {

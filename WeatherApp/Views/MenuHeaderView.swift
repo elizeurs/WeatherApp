@@ -16,10 +16,10 @@ struct MenuHeaderView: View {
     var body: some View {
       HStack {
         TextField("", text: $searchTerm)
-          .padding(.leading, 20)
+          .padding(.leading, 30)
         
         Button(action: {
-          
+          cityVM.city = searchTerm
         }, label: {
           ZStack {
             RoundedRectangle(cornerRadius: 10)
@@ -33,7 +33,8 @@ struct MenuHeaderView: View {
       .foregroundColor(.white)
       .padding()
       .background(ZStack (alignment: .leading) {
-        Image(systemName: "person.fill")
+        Image(systemName: "magnifyingglass")
+          .font(.title)
           .foregroundColor(.white)
           .padding(.leading, 10)
         
@@ -45,7 +46,7 @@ struct MenuHeaderView: View {
 
 struct MenuHeaderView_Previews: PreviewProvider {
     static var previews: some View {
-//        MenuHeaderView()
-      ContentView()
+      MenuHeaderView(cityVM: CityViewViewModel())
+//      ContentView()
     }
 }

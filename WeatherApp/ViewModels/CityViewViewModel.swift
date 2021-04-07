@@ -14,6 +14,7 @@ final class CityViewViewModel: ObservableObject {
   
   @Published var city: String = "San Francisco" {
     didSet {
+      // call get location here
       getLocation()
     }
   }
@@ -37,6 +38,7 @@ final class CityViewViewModel: ObservableObject {
   }()
   
   init() {
+    // getLocation
     getLocation()
   }
   
@@ -96,7 +98,7 @@ final class CityViewViewModel: ObservableObject {
     }
   }
   
-  private func getWeather(coord:  CLLocationCoordinate2D?) {
+  private func getWeather(coord: CLLocationCoordinate2D?) {
     if let coord = coord  {
       let  urlString = API.getURLFor(lat: coord.latitude, lon: coord.longitude)
       getWeatherInternal(city: city, for: urlString)
